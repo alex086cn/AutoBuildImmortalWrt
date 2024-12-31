@@ -21,6 +21,12 @@ PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-smartdns-zh-cn
+PACKAGES="$PACKAGES luci-i18n-dashboard-zh-cn
+PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn
+PACKAGES="$PACKAGES luci-i18n-mjpg-streamer-zh-cn
+PACKAGES="$PACKAGES luci-i18n-shairplay-zh-cn
+PACKAGES="$PACKAGES luci-app-ddnsto
 
 # 构建镜像
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Building image with the following packages:"
